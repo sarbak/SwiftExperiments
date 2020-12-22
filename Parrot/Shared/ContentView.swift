@@ -15,10 +15,6 @@ struct ContentView: View {
     @State private var dataSource: [Message] = [
         Message(content: "Hi, I really love your templates and I would like to buy the chat template", isCurrentUser: true),
         Message(content: "Thanks, nice to hear that, can I have your email please?")]
-    
-    // Some changes for comments
-    // Is this OK?
-
    
     @State var typingMessage: String = ""
     

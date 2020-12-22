@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF628A8825918DAE001665A3 /* NewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF628A8725918DAE001665A3 /* NewView.swift */; };
-		EF628A8925918DAE001665A3 /* NewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF628A8725918DAE001665A3 /* NewView.swift */; };
 		EF80FB9725901DCE00825E1E /* ParrotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80FB8425901DCC00825E1E /* ParrotApp.swift */; };
 		EF80FB9825901DCE00825E1E /* ParrotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80FB8425901DCC00825E1E /* ParrotApp.swift */; };
 		EF80FB9925901DCE00825E1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80FB8525901DCC00825E1E /* ContentView.swift */; };
@@ -18,7 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EF628A8725918DAE001665A3 /* NewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewView.swift; sourceTree = "<group>"; };
 		EF80FB8425901DCC00825E1E /* ParrotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrotApp.swift; sourceTree = "<group>"; };
 		EF80FB8525901DCC00825E1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EF80FB8625901DCE00825E1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -62,7 +59,6 @@
 			children = (
 				EF80FB8425901DCC00825E1E /* ParrotApp.swift */,
 				EF80FB8525901DCC00825E1E /* ContentView.swift */,
-				EF628A8725918DAE001665A3 /* NewView.swift */,
 				EF80FB8625901DCE00825E1E /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -191,7 +187,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF628A8825918DAE001665A3 /* NewView.swift in Sources */,
 				EF80FB9925901DCE00825E1E /* ContentView.swift in Sources */,
 				EF80FB9725901DCE00825E1E /* ParrotApp.swift in Sources */,
 			);
@@ -201,7 +196,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF628A8925918DAE001665A3 /* NewView.swift in Sources */,
 				EF80FB9A25901DCE00825E1E /* ContentView.swift in Sources */,
 				EF80FB9825901DCE00825E1E /* ParrotApp.swift in Sources */,
 			);
