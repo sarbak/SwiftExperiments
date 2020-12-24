@@ -15,6 +15,10 @@
 		EFA0E07D25952566003A2306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA0E06725952566003A2306 /* Assets.xcassets */; };
 		EFA0E089259529C1003A2306 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA0E088259529C1003A2306 /* Book.swift */; };
 		EFA0E08A259529C1003A2306 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA0E088259529C1003A2306 /* Book.swift */; };
+		EFA0E08F25952CAD003A2306 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA0E08E25952CAD003A2306 /* BookView.swift */; };
+		EFA0E09025952CAD003A2306 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA0E08E25952CAD003A2306 /* BookView.swift */; };
+		EFA0E0942595372E003A2306 /* DetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA0E0932595372E003A2306 /* DetailedView.swift */; };
+		EFA0E0952595372E003A2306 /* DetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA0E0932595372E003A2306 /* DetailedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +31,8 @@
 		EFA0E07625952566003A2306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFA0E07725952566003A2306 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		EFA0E088259529C1003A2306 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		EFA0E08E25952CAD003A2306 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
+		EFA0E0932595372E003A2306 /* DetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				EFA0E06525952563003A2306 /* ManagerApp.swift */,
-				EFA0E06625952563003A2306 /* ContentView.swift */,
+				EFA0E08D25952C9B003A2306 /* Views */,
 				EFA0E088259529C1003A2306 /* Book.swift */,
 				EFA0E06725952566003A2306 /* Assets.xcassets */,
 			);
@@ -92,6 +98,16 @@
 				EFA0E07725952566003A2306 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		EFA0E08D25952C9B003A2306 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EFA0E06625952563003A2306 /* ContentView.swift */,
+				EFA0E08E25952CAD003A2306 /* BookView.swift */,
+				EFA0E0932595372E003A2306 /* DetailedView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +209,9 @@
 			files = (
 				EFA0E07A25952566003A2306 /* ContentView.swift in Sources */,
 				EFA0E07825952566003A2306 /* ManagerApp.swift in Sources */,
+				EFA0E0942595372E003A2306 /* DetailedView.swift in Sources */,
 				EFA0E089259529C1003A2306 /* Book.swift in Sources */,
+				EFA0E08F25952CAD003A2306 /* BookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +221,9 @@
 			files = (
 				EFA0E07B25952566003A2306 /* ContentView.swift in Sources */,
 				EFA0E07925952566003A2306 /* ManagerApp.swift in Sources */,
+				EFA0E0952595372E003A2306 /* DetailedView.swift in Sources */,
 				EFA0E08A259529C1003A2306 /* Book.swift in Sources */,
+				EFA0E09025952CAD003A2306 /* BookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

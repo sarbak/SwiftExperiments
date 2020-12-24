@@ -10,13 +10,10 @@ struct Book{
     var title: String
     var author: String
     
-    // You need an initializer
     init(title: String = "Title", author: String = "Author"){
         self.title = title
         self.author = author
     }
-    
-    
     
 }
 
